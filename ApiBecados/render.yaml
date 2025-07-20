@@ -3,6 +3,8 @@ services:
     name: apibecados
     env: dotnet
     plan: free
-    buildCommand: dotnet build
-    startCommand: dotnet ApiBecados.dll
-    autoDeploy: true
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/ApiBecados.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
