@@ -1,0 +1,59 @@
+# ===================== #
+# ARCHIVOS DE VISUAL STUDIO
+# ===================== #
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sdf
+
+# ===================== #
+# ARCHIVOS DE COMPILACIÓN
+# ===================== #
+bin/
+obj/
+TestResults/
+out/
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.log
+*.vspscc
+
+# ===================== #
+# ARCHIVOS DE DEPLOY Y PUBLICACIÓN
+# ===================== #
+*.publishsettings
+*.azurePubxml
+*.pubxml.user
+
+# ===================== #
+# DOCKER / RAILWAY / RENDER
+# ===================== #
+Dockerfile
+docker-compose.*
+render.yaml
+railway.json
+
+# ===================== #
+# DATABASES LOCALES
+# ===================== #
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# ===================== #
+# OTROS
+# ===================== #
+*.bak
+*.tmp
+*.log
+*.ncb
+*.DS_Store
+Thumbs.db
+.env
+.env.*
