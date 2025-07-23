@@ -1,0 +1,69 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# Configuraciones temporales
+*.dbmdl
+*.psess
+*.vsp
+*.vspx
+*.pdb
+*.cache
+*.sdf
+*.VC.db
+*.vscode/
+
+# Azure Deployment
+PublishProfiles/
+*.azurepubxml
+*.Publish.xml
+
+# Archivos de entorno local
+.env
+.env.*
+
+# Archivos de configuración secretos o personales
+secrets.json
+
+# Paquetes y dependencias
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker
+Dockerfile
+docker-compose.*
+**/docker-compose*
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Archivos temporales y backups
+*.tmp
+*.bak
+*.swp
+*.~*
+
+# Git
+*.orig
+*.rej
